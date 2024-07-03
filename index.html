@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Halaman Directory Project">
+    <title>Directory Project</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            margin-bottom: 60px; /* Height of the footer */
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            margin-top: 20px;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .search-form {
+            margin-bottom: 20px;
+        }
+
+        .category-link {
+            color: #007bff; /* Bootstrap primary color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .category-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Directory Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/404.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/404.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/404.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Welcome to Directory Project</h1>
+                <p>Selamat datang di Proyek Direktori, tempat di mana Anda dapat menemukan informasi lengkap tentang berbagai layanan dan bisnis di sekitar Anda. Temukan apa yang Anda cari dengan mudah dan cepat!</p>
+
+                <form class="search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search directories...">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">Search</button>
+                        </div>
+                    </div>
+                </form>
+
+                <h3>Explore Categories:</h3>
+                <ul>
+                    <li><a href="HTML/home.html" class="category-link">Petshop</a></li>
+                    <li><a href="/404.html" class="category-link">Restaurants</a></li>
+                    <li><a href="/404.html" class="category-link">Shops</a></li>
+                    <li><a href="/404.html" class="category-link">Services</a></li>
+                </ul>
+            </div>  
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Latest Updates</h5>
+                        <p class="card-text">Check out our latest directory listings and updates.</p>
+                        <a href="/404.html" class="btn btn-primary">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">© 2024 Directory Project. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-vAF8pqkvhS6K1Nb8DnjGdGp/9d/LVWGVKez9eF0uJIIif0xJZMDZ/4I58SAtmJoN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-b4gt1jrGC7Jh4AgTPSdUtOBvfO8sh1IpfFf/g/+NrAEwwrHD25pL28YfoRSJoO6b"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
